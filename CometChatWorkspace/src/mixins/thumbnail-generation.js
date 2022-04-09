@@ -45,7 +45,9 @@ export default {
             }
           } else {
             let img = new Image();
-            img.src = this.parsedMessage.data.attachments && this.parsedMessage.data.attachments[0] ? this.parsedMessage.data.attachments[0].url : this.parsedMessage.data.url; 
+            img.src = this.parsedMessage.data.attachments && this.parsedMessage.data.attachments[0] ? 
+		    this.parsedMessage.data.attachments[0].url : 
+	    	    this.parsedMessage.data.url; 
             img.onload = () => (this.imageUrl = img.src);
           }
         } else {
