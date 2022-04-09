@@ -70,6 +70,7 @@ export const unifiedSecondaryStyle = (theme, threadmessageview) => {
 
 export const unifiedPlaceholderStyle = theme => {
   return {
+<<<<<<< HEAD
     width: '100%',
     height: '100%',
     opacity: '0.4',
@@ -79,6 +80,17 @@ export const unifiedPlaceholderStyle = theme => {
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: '9rem',
+=======
+    width: "100%",
+    height: "100%",
+    opacity: "0.4",
+    display: "flex",
+    fontSize: "22px",
+    fontWeight: "700",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: "11rem",
+>>>>>>> c70f02133c59543a85e1f04de4c028c880195de6
     color: `${theme.color.primary}`,
   }
 }
