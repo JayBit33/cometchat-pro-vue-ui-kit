@@ -78,6 +78,7 @@ export const unifiedPlaceholderStyle = (theme) => {
     fontWeight: "700",
     alignItems: "center",
     justifyContent: "center",
+    marginTop: "11rem",
     color: `${theme.color.primary}`,
   };
 };
